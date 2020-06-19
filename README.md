@@ -33,3 +33,7 @@
   - **6.2-Matches**
   - **6.3-StartsWith**
   - **6.4-EndsWith**
+- **7-TestContext**
+- **8-DataTest**
+  - **8.1-Xml**
+  - **8.2-MsSql**

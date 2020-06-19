@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="3-ExpectedException.cs" />
+    <Compile Include="DataManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="1-StringHelper.cs" />
     <Compile Include="2-ShoppingCard\CartManager.cs" />

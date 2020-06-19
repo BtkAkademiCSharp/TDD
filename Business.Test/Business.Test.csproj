@@ -47,17 +47,20 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="2-TestLifeCycle\2.3-AssemblyTests.cs" />
     <Compile Include="3-ExpectedExceptionTests.cs" />
     <Compile Include="4-Asserts.cs" />
     <Compile Include="5-CollectionAsserts.cs" />
+    <Compile Include="8-DataTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="1-StringHelperTests.cs" />
     <Compile Include="2-TestLifeCycle\2.1-ShoppingCardTests.cs" />
     <Compile Include="2-TestLifeCycle\2.2-ShoppingCardTests.cs" />
     <Compile Include="6-StringAsserts.cs" />
+    <Compile Include="7-TestContext.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -67,6 +70,11 @@
       <Project>{bce1352d-5b79-4811-a96a-b782cbfd7dc8}</Project>
       <Name>Business</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Properties\Users.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
