@@ -57,6 +57,7 @@
     <Compile Include="1-StringHelperTests.cs" />
     <Compile Include="2-TestLifeCycle\2.1-ShoppingCardTests.cs" />
     <Compile Include="2-TestLifeCycle\2.2-ShoppingCardTests.cs" />
+    <Compile Include="6-StringAsserts.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

@@ -28,3 +28,8 @@
   - **5.7-AllItemsAreInstancesOfType**
   - **5.8-IsSubsetOf**
   - **5.9-Contains**
+- **6-StringAsserts**
+  - **6.1-Contains**
+  - **6.2-Matches**
+  - **6.3-StartsWith**
+  - **6.4-EndsWith**
