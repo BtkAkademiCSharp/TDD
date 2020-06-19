@@ -6,4 +6,25 @@
   - **2.2-ShoppingCardTests** ClassInitialize,ClassCleanUp
   - **2.3-AssemblyTests** AssemblyInitialize,AssemblyCleanUp
 - **3-ExpectedException** 
-- **4-Asserts** custom message,delta,ignorecase,arenotequal,aresame,inconclusive,isinstance,istrue,isfalse
+- **4-Asserts** 
+  - **4.1-CustomMessageAssert**
+  - **4.2-Delta**
+  - **4.3-IgnoreCase**
+  - **4.4-AreNotEqual**
+  - **4.5-AreSame**
+  - **4.6-AreSameWithValueType**
+  - **4.7-Inconclusive**
+  - **4.8-IsInstance**
+  - **4.9-IsTrue**
+  - **4.10-IsNull**
+  - **4.11-Fail**
+- **5-CollectionAsserts**
+  - **5.1-AreEqual**
+  - **5.2-AreNotEqual**
+  - **5.3-AreEquivalent**
+  - **5.4-AreNotEquivalent**
+  - **5.5-AllItemsAreNotNull**
+  - **5.6-AllItemsAreUnique**
+  - **5.7-AllItemsAreInstancesOfType**
+  - **5.8-IsSubsetOf**
+  - **5.9-Contains**

@@ -52,6 +52,7 @@
     <Compile Include="2-TestLifeCycle\2.3-AssemblyTests.cs" />
     <Compile Include="3-ExpectedExceptionTests.cs" />
     <Compile Include="4-Asserts.cs" />
+    <Compile Include="5-CollectionAsserts.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="1-StringHelperTests.cs" />
     <Compile Include="2-TestLifeCycle\2.1-ShoppingCardTests.cs" />
