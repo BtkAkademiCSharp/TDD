@@ -14,7 +14,7 @@ namespace Business.Test
         private CartItem _cartItem;
         private CartManager _cartManager;
         [TestInitialize]
-        public void Testİnitialize()
+        public void TestInitialize()
         {
             _cartManager = new CartManager();
             _cartItem = new CartItem

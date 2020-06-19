@@ -13,7 +13,16 @@ namespace Business.ShoppingCard
         {
             _cartItems = new List<CartItem>();
         }
-        public void Add(CartItem cartItem)=> _cartItems.Add(cartItem);
+        public void Add(CartItem cartItem)
+        {
+            var addedCartItem = _cartItems.SingleOrDefault(p => p.Product.ProductId == cartItem.Product.ProductId);
+            if (addedCartItem != null)
+            {
+                addedCartItem.Quantity += cartItem.Quantity;
+            }
+            else
+                _cartItems.Add(cartItem);
+        }
         public void Remove(int productId)
         {
             var product = _cartItems.FirstOrDefault(x => x.Product.ProductId == productId);
@@ -21,7 +30,7 @@ namespace Business.ShoppingCard
         }
         public List<CartItem> CartItems { get => _cartItems; }
         public void Clear() => _cartItems.Clear();
-        public decimal TotalPrice { get=> _cartItems.Sum(x => x.Product.UnitPrice * x.Quantity); }
+        public decimal TotalPrice { get => _cartItems.Sum(x => x.Product.UnitPrice * x.Quantity); }
         public int TotalQuantity => _cartItems.Sum(x => x.Quantity);
         public int TotalItems => _cartItems.Count;
     }
