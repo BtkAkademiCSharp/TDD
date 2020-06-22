@@ -37,3 +37,11 @@
 - **8-DataTest**
   - **8.1-Xml**
   - **8.2-MsSql**
+- **9-TestAttributes**
+  - **9.1-Owner**
+  - **9.2-TestCategory**
+  - **9.3-Priority**
+  - **9.4-TestProperty**
+  - **9.5-Ignore**
+  - **9.6-Timeout**
+  - **9.7-Description**

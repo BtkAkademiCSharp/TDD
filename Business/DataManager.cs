@@ -17,5 +17,6 @@ namespace Business
 
             return true;
         }
+        public int Addition(int s1, int s2) => s1 + s2;
     }
 }

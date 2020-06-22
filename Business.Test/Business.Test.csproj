@@ -46,6 +46,7 @@
       <HintPath>..\packages\MSTest.TestFramework.1.3.2\lib\net45\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data" />
   </ItemGroup>
@@ -61,8 +62,10 @@
     <Compile Include="2-TestLifeCycle\2.2-ShoppingCardTests.cs" />
     <Compile Include="6-StringAsserts.cs" />
     <Compile Include="7-TestContext.cs" />
+    <Compile Include="9-TestAttributes.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
